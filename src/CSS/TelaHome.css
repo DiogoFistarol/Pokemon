@@ -1,0 +1,260 @@
+
+
+.root{
+    -fx-background-color: #616161;
+    -fx-background-color: #616161;
+}
+
+.bt1{
+    -fx-background-color: #729f3f;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt2{
+    -fx-background-color: linear-gradient(#53a4cf 50%, #f16e57 50%);
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt3{
+    -fx-background-color: linear-gradient(#fdb9e9 50%, #fdb9e9 50%);
+    -fx-text-fill: #212121;
+
+    -fx-font-family: "Arial";
+    -fx-float: left;
+    -fx-text-alignment: center;
+    
+    -fx-background-radius: 5px;
+    -fx-border-color: #a4a4a4;
+    -fx-line-height: 25px;
+    -fx-border-radius: 5px;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+}
+
+.bt4{
+    -fx-background-color: #fd7d24;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-alignment: center;
+    -fx-background-radius: 5px;
+}
+
+.bt5{
+    -fx-background-color: #7b62a3;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt6{
+    -fx-background-color: linear-gradient(#f7de3f 50%, #ab9842 50%);
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt7{
+    -fx-background-color: #a4acaf;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt8{
+    -fx-background-color: #f366b9;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt9{
+    -fx-background-color: #9eb7b8;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt10{
+    -fx-background-color: #707070;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt11{
+    -fx-background-color: #eed535;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt12{
+    -fx-background-color: #d56723;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt13{
+    -fx-background-color: linear-gradient(#3dc7ef 50%, #bdb9b8 50%);
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt14{
+    -fx-background-color: #9bcc50;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt15{
+    -fx-background-color: #51c4e7;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #212121;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt16{
+    -fx-background-color: #b97fc9;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt17{
+    -fx-background-color: #a38c21;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}
+
+.bt18{
+    -fx-background-color: #4592c4;
+    -fx-border-color: #a4a4a4;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #fff;
+    -fx-max-width: 70px;
+    -fx-width: 50%;
+    cursor: pointer;
+    -fx-float: left;
+    -fx-text-align: center;
+    -fx-background-radius: 5px;
+}

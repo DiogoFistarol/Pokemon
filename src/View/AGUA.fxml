@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4592c4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AGUAController">
+    <children>
+      <StackPane fx:id="stack" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="b1" onAction="#poke009" prefHeight="25.0" prefWidth="50.0" text="#009" StackPane.alignment="TOP_LEFT">
+                      <StackPane.margin>
+                  <Insets left="10.0" top="10.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="b2" onAction="#poke055" prefHeight="25.0" prefWidth="50.0" text="#055" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="10.0" top="40.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="b3" onAction="#poke099" prefHeight="25.0" prefWidth="50.0" text="#099" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="10.0" top="70.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="b4" onAction="#poke134" prefHeight="25.0" prefWidth="50.0" text="#134" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="10.0" top="100.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="b5" minHeight="-Infinity" minWidth="-Infinity" onAction="#poke245" prefHeight="25.0" prefWidth="50.0" text="#245" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="10.0" top="130.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="button6" mnemonicParsing="false" onAction="#handleButtonAction" text="Treinador" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="100.0" top="10.0" />
+               </StackPane.margin>
+                  </Button>
+                  <Button fx:id="home" mnemonicParsing="false" onAction="#home" text="Home" StackPane.alignment="BOTTOM_RIGHT">
+               <StackPane.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </StackPane.margin>
+                  </Button>
+               </children>
+               </StackPane>
+        <ImageView fx:id="image1" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#poke009" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/009.png" />
+          </image>
+        </ImageView>
+        
+        <ImageView fx:id="image2" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#poke055" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/055.png" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="image3" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#poke099" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/099.png" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="image4" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#poke134" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/134.png" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="image5" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#poke245" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/245.png" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="image6" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0">
+          <image>
+             <Image url="@../ImagensAGUA/Siebold.jpg" />
+          </image>
+        </ImageView>
+         <ListView fx:id="listv1" editable="true" layoutX="250.0" layoutY="274.0" prefHeight="150.0" prefWidth="200.0" visible="false" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="100.0" />
+         <Label fx:id="lb1" layoutX="259.0" layoutY="100.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="101.0" />
+         <Label fx:id="lb2" layoutX="259.0" layoutY="125.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="120.0" />
+         <Label fx:id="lb3" layoutX="259.0" layoutY="135.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="139.0" />
+         <Label fx:id="lb4" layoutX="259.0" layoutY="135.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="158.0" />
+         <Label fx:id="lb5" layoutX="259.0" layoutY="135.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="177.0" />
+         <Label fx:id="lb6" layoutX="319.0" layoutY="192.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="101.0" />
+         <Label fx:id="lb7" layoutX="329.0" layoutY="202.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="120.0" />
+         <Label fx:id="lb8" layoutX="339.0" layoutY="212.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="139.0" />
+         <Label fx:id="lb9" layoutX="349.0" layoutY="222.0" prefHeight="15.0" prefWidth="80.0" AnchorPane.leftAnchor="381.0" AnchorPane.topAnchor="158.0" />
+         <Label fx:id="lb11" layoutX="259.0" layoutY="110.0" prefHeight="15.0" prefWidth="80.0" text="Nome:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="101.0" />
+         <Label fx:id="lb21" layoutX="259.0" layoutY="135.0" prefHeight="15.0" prefWidth="80.0" text="Altura:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="120.0" />
+         <Label fx:id="lb31" layoutX="259.0" layoutY="145.0" prefHeight="15.0" prefWidth="80.0" text="Peso:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="139.0" />
+         <Label fx:id="lb41" layoutX="259.0" layoutY="145.0" prefHeight="15.0" prefWidth="80.0" text="Fraqueza:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="158.0" />
+         <Label fx:id="lb51" layoutX="259.0" layoutY="145.0" prefHeight="15.0" prefWidth="80.0" text="Treinador:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="177.0" />
+         <Label fx:id="lb61" layoutX="389.0" layoutY="262.0" prefHeight="15.0" prefWidth="80.0" text="Nome:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="101.0" />
+         <Label fx:id="lb71" layoutX="379.0" layoutY="252.0" prefHeight="15.0" prefWidth="80.0" text="Apelido:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="120.0" />
+         <Label fx:id="lb81" layoutX="369.0" layoutY="242.0" prefHeight="15.0" prefWidth="80.0" text="Peso:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="139.0" />
+         <Label fx:id="lb91" layoutX="359.0" layoutY="232.0" prefHeight="15.0" prefWidth="80.0" text="Idade:" visible="false" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="158.0" />
+         <Label fx:id="tit" layoutX="192.0" layoutY="26.0" text="Pokemons Água" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="191.0" AnchorPane.topAnchor="10.0">
+           <font>
+              <Font name="Arial Black" size="20.0" />
+           </font>
+         </Label>
+    </children>
+</AnchorPane>

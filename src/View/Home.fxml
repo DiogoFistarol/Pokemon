@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpr" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@../CSS/TelaHome.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeController">
+   <children>
+      <StackPane fx:id="stackpr" layoutX="33.0" layoutY="50.0" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@../CSS/TelaHome.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="bt1" mnemonicParsing="false" onAction="#insetos" prefHeight="25.0" prefWidth="70.0" styleClass="bt1" stylesheets="@../CSS/TelaHome.css" text="Insetos" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                    <Insets left="190.0" top="70.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt2" mnemonicParsing="false" onAction="#dragao" prefHeight="25.0" prefWidth="75.0" styleClass="bt2" stylesheets="@../CSS/TelaHome.css" text="Dragão" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="100.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt3" mnemonicParsing="false" onAction="#fada" styleClass="bt3" stylesheets="@../CSS/TelaHome.css" text="Fada" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="130.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt4" mnemonicParsing="false" onAction="#fogo" prefHeight="25.0" prefWidth="70.0" styleClass="bt4" text="Fogo" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="160.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt5" mnemonicParsing="false" onAction="#fantasma" prefHeight="25.0" prefWidth="70.0" styleClass="bt5" text="Fantasma" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="190.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt6" mnemonicParsing="false" onAction="#terra" prefHeight="25.0" prefWidth="70.0" styleClass="bt6" text="Terrestre" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="220.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt7" mnemonicParsing="false" onAction="#normal" prefHeight="25.0" prefWidth="70.0" styleClass="bt7" text="Normal" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="250.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt8" mnemonicParsing="false" onAction="#psiquico" prefHeight="25.0" prefWidth="70.0" styleClass="bt8" text="Psiquico" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="280.0" />
+               </StackPane.margin></Button>
+            <Button fx:id="bt9" mnemonicParsing="false" onAction="#aco" prefHeight="25.0" prefWidth="70.0" styleClass="bt9" text="Aço" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="190.0" top="310.0" />
+               </StackPane.margin></Button>
+            <Button fx:id="bt10" mnemonicParsing="false" onAction="#noturno" prefHeight="25.0" prefWidth="70.0" styleClass="bt10" text="Sombrio" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="70.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt11" mnemonicParsing="false" onAction="#eletrico" prefHeight="25.0" prefWidth="70.0" styleClass="bt11" text="Elétrico" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="100.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt12" mnemonicParsing="false" onAction="#lutador" prefHeight="25.0" prefWidth="70.0" styleClass="bt12" text="Lutador" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="130.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt13" mnemonicParsing="false" onAction="#voador" prefHeight="25.0" prefWidth="70.0" styleClass="bt13" text="Voador" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets left="40.0" right="190.0" top="160.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt14" mnemonicParsing="false" onAction="#grama" prefHeight="25.0" prefWidth="70.0" styleClass="bt14" text="Grama" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="190.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt15" mnemonicParsing="false" onAction="#gelo" prefHeight="25.0" prefWidth="70.0" styleClass="bt15" text="Gelo" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="220.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt16" mnemonicParsing="false" onAction="#veneno" prefHeight="25.0" prefWidth="70.0" styleClass="bt16" text="Venenoso" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="250.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt17" mnemonicParsing="false" onAction="#pedra" prefHeight="25.0" prefWidth="70.0" styleClass="bt17" text="Pedra" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="280.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bt18" mnemonicParsing="false" onAction="#agua" prefHeight="25.0" prefWidth="70.0" styleClass="bt18" text="Água" StackPane.alignment="TOP_RIGHT">
+               <StackPane.margin>
+                  <Insets right="190.0" top="310.0" />
+               </StackPane.margin></Button>
+            <Label fx:id="lbpoke" text="POKEDEX" textFill="WHITE" StackPane.alignment="TOP_CENTER">
+               <StackPane.margin>
+                  <Insets top="30.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
